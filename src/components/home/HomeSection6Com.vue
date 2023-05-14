@@ -1,15 +1,19 @@
 <template>
-  <section class="flex row full-width q-px-xl" >
+  <section class="flex row full-width q-px-xs-none q-px-sm-xl " >
 
     <!--      col1-->
 
     <div class="col flex justify-center items-center q-pa-xl order-xs-last" >
-      <q-img src="@/assets/images/homeSection8co.png" width="400px" height="400px"/>
+      <q-img v-if="$q.screen.sm" src="@/assets/images/homeSection8co.png" width="90%"/>
+      <q-img v-else src="@/assets/images/homeSection8co.png" width="70%"/>
     </div>
 
     <!--      col2-->
 
-    <div class="col-xs-12 col-md-6 flex column q-pa-xl justify-center q-gutter-y-md">
+    <div
+        class="col-xs-12 col-sm-6 flex column q-pa-xl justify-center items-xs-center items-sm-start q-gutter-y-md"
+        :class="{'text-center': $q.screen.xs}"
+    >
       <span class="text-weight-bold">Feature one</span>
       <span class="text-h5 text-weight-bold text-primary">
         Headline highlighting customer results
@@ -22,7 +26,7 @@
         <div
             v-for="(col,index) in cols"
             :key="index"
-            class="flex column col-6 q-pa-md"
+            class="flex column col-6 q-pa-md items-xs-center items-sm-start"
         >
           <span class="text-h3 text-weight-bold">{{col.num}}</span>
           <span>{{col.text}}</span>

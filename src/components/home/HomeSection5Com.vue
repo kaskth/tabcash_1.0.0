@@ -2,7 +2,7 @@
   <div class="flex row full-width q-px-xl">
 
 <!--    sisction1-->
-    <section class="flex row full-width q-px-xl" >
+    <section class="flex row full-width" >
 
 <!--      col1-->
 

@@ -1,6 +1,6 @@
 <template>
   <div class="full-width flex column justify-center items-center q-gutter-y-lg q-pa-xl">
-    <span class="text-h3 text-primary text-weight-bold">Frequently asked questions</span>
+    <span class="text-h3 text-primary text-weight-bold text-center">Frequently asked questions</span>
     <span class="text-center" style="max-width: 600px">
       Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.
     </span>
