@@ -4,13 +4,13 @@
 <table>
   <tr>
     <td align="center">
-      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" width="100px;" alt="Vue.js"/></a>
+      <a href="https://vuejs.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" width="100px;" alt="Vue.js"/></a>
     </td>
     <td align="center">
-      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/2/29/Quasar_Logo.png" width="100px;" alt="quasar"/></a>
+      <a href="https://quasar.dev/"><img src="https://upload.wikimedia.org/wikipedia/en/2/29/Quasar_Logo.png" width="100px;" alt="quasar"/></a>
     </td>
     <td align="center">
-      <a href="#"><img src="https://pinia.vuejs.org/logo.svg" width="100px;" alt="pinia"/></a>
+      <a href="https://pinia.vuejs.org/"><img src="https://pinia.vuejs.org/logo.svg" width="100px;" alt="pinia"/></a>
     </td>
   </tr>
 </table>
